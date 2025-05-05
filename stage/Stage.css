@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin:0;
+    background: linear-gradient(to bottom, #f0f0f0, #E7473C 90%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre le contenu horizontalement */
+}
+
+h1 {
+    color: #333;
+    text-align: center; /* Centre le titre */
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* Permet aux cartes de s'enrouler sur plusieurs lignes */
+    justify-content: center; /* Centre les cartes horizontalement */
+    gap: 20px; /* Espace entre les cartes */
+    margin-top: 20px; /* Espace au-dessus des cartes */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 200px; /* Largeur fixe pour les cartes */
+}
+
+.logo {
+
+    width: 100px; /* Largeur du logo */
+    height: auto; /* Hauteur automatique pour maintenir le ratio */
+    margin-bottom: 25px; /* Espace entre le logo et le lien */
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+
+.button-container {
+    background-color: black;
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background-color: #444;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veille Technologique</title>
+    <link rel="stylesheet" href="ma_veille.css"> <!-- Réutilisation du CSS commun -->
+</head>
+<body>
+<div class="button-container">
+    <a href="../index.php" class="button stage-button">Accueil</a>
+    <a href="../stage/Stage.php" class="button stage-button">Mes Stages</a>
+</div>
+
+<h1>Veille Technologique - Flux RSS</h1>
+
+<!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" preloader-text="Loading" data-fw-param="172565/"></script> <!-- end feedwind code -->
+
+
+
+    <h1>Veille Technologique - YouTube</h1>
+<div class="YT">
+    <a href="https://www.youtube.com/@creajv" target="_blank"><img src="mathieuTuto.png"/></a>
+    <a href="https://www.youtube.com/@ParfaitementWeb" target="_blank"><img src="PWeb.png"/></a>
+    <a href="https://www.youtube.com/@_johnHammond" target="_blank"><img src="Jhonn.png"/></a>
+</div>
+</body>
+</html>

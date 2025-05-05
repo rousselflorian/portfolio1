@@ -1,0 +1,81 @@
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Style général du body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Titre principal */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Sous-titres */
+h2 {
+    font-size: 1.5rem;
+    margin: 20px 0 10px;
+    color: #34495e;
+}
+
+/* Conteneur principal de contenu */
+.stage-description {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Listes */
+ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+/* Liens (si besoin) */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .stage-description {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+
+}
